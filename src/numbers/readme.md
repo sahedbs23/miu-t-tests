@@ -1,4 +1,6 @@
-Question 18
+
+# Question 18
+
 Define a square pair to be the tuple <x,y> where x and y are positive, non-zero integers,
 x<y and x+y is a perfect square. A perfect square is an integer whose square root is also
 an integer, e.g 4,9,16 are perfect squares but 3,10,and 17 are not.
