@@ -1,4 +1,4 @@
-package numbers;
+package MIU.numbers;
 
 import java.util.Arrays;
 
