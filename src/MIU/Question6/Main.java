@@ -12,8 +12,10 @@ public class Main {
 
     public static int f(int[] a){
         int l=0, r=a.length-1,res=-1;
-        while (l>=0 && r<= a.length-1){
-            int mid = r - l /2;
+        int mid = (l+r) /2;
+        int lc = 0;
+        while (l<mid && mid<r && lc<a.length){
+            lc++;
             int ls = 0;
             int rs = 0;
             for (int i = 0; i < mid; i++) {
@@ -27,9 +29,9 @@ public class Main {
                 res=mid;
                 break;
             } else if (ls > rs) {
-                l++;
+                mid--;
             }else {
-                r++;
+                mid++;
             }
         }
         return res;
