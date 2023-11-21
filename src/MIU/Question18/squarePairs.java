@@ -1,4 +1,4 @@
-package MIU.numbers;
+package MIU.Question18;
 
 import java.util.Arrays;
 

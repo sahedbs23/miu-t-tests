@@ -1,4 +1,4 @@
-package MIU.MadhavArray;
+package MIU.Question16;
 
 public class Main {
     public static void main(String[] args) {
