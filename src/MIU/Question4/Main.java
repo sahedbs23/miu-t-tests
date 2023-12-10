@@ -12,7 +12,7 @@ public class Main {
     public static int f(int n){
         //1234
         int rev = 0;
-        int rem = 0;
+        int rem;
         while (n!=0){
             rem = n%10;
             rev = rev * 10 + rem;
